@@ -8,7 +8,7 @@ Examples for introducing scikit-lear.
 	- Introducing tools for data science in Python
 2. MNIST.ipynb
 	- Train a classifier to recognize digit images
-3. Boston House Prices.ipynb	
+3. Boston House Prices.ipynb
 	- Predict Boston house prices using regression
 
 ### Slide mode
