@@ -1,11 +1,10 @@
-# Sklearn Intro
-Examples for introducing scikit-lear.
+# Intro to Python Data Science Tools
 
 ## Description
 
 ### Table of Content
 1. Intro.ipynb
-	- Introducing tools for data science in Python
+	- A breif intro to commonly used python data science tools
 2. MNIST.ipynb
 	- Train a classifier to recognize digit images
 3. Boston House Prices.ipynb
@@ -28,7 +27,7 @@ You can view through the following links.
 pip install -r requirements.txt
 ```
 
-- To use [RISE]()
+- To use [RISE](https://github.com/damianavila/RISE)
 
 	```sh
 	jupyter-nbextension install rise --py --sys-prefix
