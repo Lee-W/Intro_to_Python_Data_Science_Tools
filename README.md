@@ -19,12 +19,23 @@ You can view through the following links.
 - [2 - MNIST.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/sklearn_intro/blob/master/2%20-%20MNIST.ipynb#/)
 - [3 - Boston House Prices.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/sklearn_intro/blob/master/3%20-%20Boston%20House%20Prices.ipynb#/)
 
-## Run on local
 
+
+## Usage
+
+### Install dependency
 ```sh
 pip install -r requirements.txt
 ```
 
+- To use [RISE]()
+
+	```sh
+	jupyter-nbextension install rise --py --sys-prefix
+	jupyter-nbextension enable rise --py --sys-prefix
+	```
+
+### Run
 ```sh
 jupyter-notebook
 ```
