@@ -14,11 +14,9 @@
 These jupyter notebooks are organized as slides.  
 You can view through the following links.
 
-- [1 - Intro.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/sklearn_intro/blob/master/1%20-%20Intro.ipynb#/)
-- [2 - MNIST.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/sklearn_intro/blob/master/2%20-%20MNIST.ipynb#/)
-- [3 - Boston House Prices.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/sklearn_intro/blob/master/3%20-%20Boston%20House%20Prices.ipynb#/)
-
-
+- [1 - Intro.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/Intro_to_Python_Data_Science_Tools/blob/master/1%20-%20Intro.ipynb#/)
+- [2 - MNIST.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/Intro_to_Python_Data_Science_Tools/blob/master/2%20-%20MNIST.ipynb#/)
+- [3 - Boston House Prices.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/Intro_to_Python_Data_Science_Tools/blob/master/3%20-%20Boston%20House%20Prices.ipynb#/)
 
 ## Usage
 
