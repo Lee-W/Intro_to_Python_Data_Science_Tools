@@ -4,28 +4,34 @@
 
 ### Table of Content
 1. Intro.ipynb
-	- A breif intro to commonly used python data science tools
+	* A breif intro to commonly used Python data science tools
 2. MNIST.ipynb
-	- Train a classifier to recognize digit images
+	* Train a classifier to recognize digit images
 3. Boston House Prices.ipynb
-	- Predict Boston house prices using regression
+	* Predict Boston house prices using regression
 
 ### Slide mode
 These jupyter notebooks are organized as slides.  
 You can view through the following links.
 
-- [1 - Intro.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/Intro_to_Python_Data_Science_Tools/blob/master/1%20-%20Intro.ipynb#/)
-- [2 - MNIST.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/Intro_to_Python_Data_Science_Tools/blob/master/2%20-%20MNIST.ipynb#/)
-- [3 - Boston House Prices.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/Intro_to_Python_Data_Science_Tools/blob/master/3%20-%20Boston%20House%20Prices.ipynb#/)
+* [1 - Intro.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/Intro_to_Python_Data_Science_Tools/blob/master/1%20-%20Intro.ipynb#/)
+* [2 - MNIST.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/Intro_to_Python_Data_Science_Tools/blob/master/2%20-%20MNIST.ipynb#/)
+* [3 - Boston House Prices.ipynb](https://nbviewer.jupyter.org/format/slides/github/Lee-W/Intro_to_Python_Data_Science_Tools/blob/master/3%20-%20Boston%20House%20Prices.ipynb#/)
 
 ## Usage
 
-### Install dependency
+### Install dependency through makefile
+
 ```sh
-pip install -r requirements.txt
+make init
 ```
 
-- To use [RISE](https://github.com/damianavila/RISE)
+### Install dependency manually
+```sh
+pipenv install --dev
+```
+
+* To use [RISE](https://github.com/damianavila/RISE)
 
 	```sh
 	jupyter-nbextension install rise --py --sys-prefix
@@ -34,7 +40,7 @@ pip install -r requirements.txt
 
 ### Run
 ```sh
-jupyter-notebook
+pipenv run jupyter-notebook
 ```
 
 # AUTHORS
