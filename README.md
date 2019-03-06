@@ -20,27 +20,14 @@ You can view through the following links.
 
 ## Usage
 
-### Install dependency through makefile
-
+### Install dependency
 ```sh
 make init
 ```
 
-### Install dependency manually
+### Run Jupyter notebook
 ```sh
-pipenv install --dev
-```
-
-* To use [RISE](https://github.com/damianavila/RISE)
-
-	```sh
-	jupyter-nbextension install rise --py --sys-prefix
-	jupyter-nbextension enable rise --py --sys-prefix
-	```
-
-### Run
-```sh
-pipenv run jupyter-notebook
+make run
 ```
 
 # AUTHORS
