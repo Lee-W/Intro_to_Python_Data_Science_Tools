@@ -1,5 +1,5 @@
 init:
-	pip install pipenv
+	pip install -U pipenv
 	pipenv install --dev
 	jupyter-nbextension install rise --py --sys-prefix
 	jupyter-nbextension enable rise --py --sys-prefix
