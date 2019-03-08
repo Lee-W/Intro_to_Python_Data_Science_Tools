@@ -11,9 +11,9 @@ rise = "==5.2.0"
 numpy = "*"
 pandas = "*"
 scikit-learn = "*"
-bokeh = "*"
-matplotlib = "*"
 scipy = "*"
+matplotlib = "*"
+bokeh = "*"
 
 [requires]
 python_version = "3.6"
