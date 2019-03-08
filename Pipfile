@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 jupyter = "*"
-rise = "==5.3.0"
+rise = "==5.2.0"
 numpy = "*"
 pandas = "*"
 scikit-learn = "*"
